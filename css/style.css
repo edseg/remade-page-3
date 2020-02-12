@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kumar+One|Lora|Roboto&display=swap');
+@import url('components/upper_banner.css');
+
+body {
+	font-family: 'roboto',serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+.main_title {
+    font-family: 'roboto';
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+}
+
+#value_prop {
+    font-family: 'roboto';
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    font-weight: lighter;
+    line-height: 40px;
+    margin-left: 150px;
+    margin-top: 150px;
+}    
+
+
+h3 {
+	font-family: 'roboto';
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+#homepage_images {
+    display: inline-flex; 
+    text-align: right;
+    margin: -145px 850px;
+}
+
+#scroll_down {
+	align-items: center;
+	margin: 0px 533px;
+	margin-top: 100px;
+}
+
+.bloc_homepage {
+	text-decoration: none;
+	color: black;
+	font-family: 'roboto';
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.hover_bloc {
+	padding-top: 30px;
+}
+
+#left_image_title {
+	padding-right: 246px;
+}
+
+.typeform-widget {
+	margin: -65px 150px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	} 
+}
+
+
+
